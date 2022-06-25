@@ -26,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (IBAction)retweetButton:(id)sender;
 - (IBAction)favoButton:(id)sender;
 - (IBAction)messageButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *reply;
+@property (weak, nonatomic) IBOutlet UIButton *retweetButton;
+@property (weak, nonatomic) IBOutlet UIButton *favoButton;
+
 
 @end
 
